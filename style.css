@@ -54,6 +54,13 @@
 
 /* я не добавлял хувер на кнопки */
 
+.btn:hover {
+    filter: brightness(130%);
+}
+.btn:active {
+    filter: brightness(90%);
+}
+
 .btn.colorPurple {
     background: rgb(176, 69, 176);
 }
